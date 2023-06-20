@@ -9,12 +9,100 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  background-color:  #F2F2F2 ;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
   /* parameters for the header section */
 }
+
+.logo{
+  
+  position: absolute;
+  width: 154px;
+  height: 31px;
+  z-index: 1;
+
+}
+
+.logo_place_header {
+  width: 154px;
+  height: 31px;
+  left: 64px;
+  top: 30px; 
+  z-index: 1;  
+   
+}
+
+.header__title{
+  width: 730px;
+  margin-left: 64px;
+  line-height: 96px; 
+  font-size: 102px; 
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  
+
+
+  
+  
+}
+
+.header__subtitle{
+  width: 388px;
+  bottom: 30px;
+  margin-left: 64px;
+  line-height: 25px;
+  font-size: 18px;
+  position: absolute;
+  
+
+}
+
+.header__link{
+  position: absolute;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;  
+  color: #2F80ED;
+  text-decoration: none;
+  display: block;
+  
+
+}
+
+.header__main-illustration{
+ width: 756px;
+ height: 608px;
+ position: absolute;
+ bottom: 0;
+ right: 0;
+ z-index: 1;
+
+}
+
+
+
+.header__square{
+  background-color:#2F80ED;
+  width: 568px;
+  height: 568px;
+  top: 64px;
+  position: absolute;
+  top: 20px; 
+  right: 0;
+}
+
+
+
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
