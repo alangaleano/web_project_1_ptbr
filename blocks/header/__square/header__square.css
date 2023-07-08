@@ -1,9 +1,10 @@
-
 .header__square {
-    background-color: #2F80ED;
-    width: 568px;
-    height: 568px;
-    top: 64px;
-    position: absolute;
-    right: 0;
-  }
+  background-color: #2F80ED;
+  width: 568px;
+  height: 568px;
+  top: 64px;
+  position: absolute;
+  right: 0;
+  transform: rotate(-15deg);
+  animation: rotation 20s linear infinite;
+}

@@ -1,7 +1,12 @@
-
 .header__link {
-    font-weight: normal;
-    color: #2F80ED;
-    text-decoration: none;
-    display: block;
-  }
+  font-weight: normal;
+  color: #2F80ED;
+  text-decoration: none;
+  display: block;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.header__link:hover {
+  opacity: 0.5;
+}

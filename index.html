@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./pages/index.css">
-  <link rel="stylesheet" href="./pages/style.css">
+  <link rel="stylesheet" href="./vendor/normalize.css">
   <title>Aprendendo a aprender</title>
 </head>
 
@@ -13,7 +13,7 @@
   <div class="page">
 
     <header class="header">
-      <img class=" logo logo_place_header" src="images/logo_place_header.png" alt="logo practicum de cor preta">
+      <img class=" logo logo_place_header" src="images/images_sprint-3/Tripleten-logo.png" alt="logo practicum de cor preta">
 
       <h1 class="header__title">Aprendendo a aprender</h1>
 
@@ -23,13 +23,13 @@
 
       </p>
 
-      <img class="header__main-illustration" src="./images/header-image.png" alt="Ponderador épico no alto de uma montanha deliberando
+      <img class="header__main-illustration" src="./images/images_sprint-2/header-image.png" alt="Ponderador épico no alto de uma montanha deliberando
         sobre os pontos mais refinados do sistema educacional moderno,
         enquanto também se questiona sobre de onde aquele quadrado
         azul gigante veio">
 
 
-      <div class="header__square"></div>
+      <div class="header__square rotation"></div>
 
     </header>
 
@@ -60,6 +60,99 @@
         </article>
       </section>
 
+      <section class="techniques">
+        <h2 class="section-title">Aprender Técnicas</h2>
+        <p class="section-subtitle">As Cinco estratégias de Barbara Oakley</p>
+
+        <ul class="cards">
+          <li class="cards__item">
+            <img src="images\images_sprint-3\cards-attention.png" class="cards__images" alt="A imagem retrata duas mãos segurando um livro branco com o texto escrito em preto.">
+            <h3 class="cards__title">As Duas Maneiras 
+              de Pensar</h3>
+            <p class="cards__description">Uma compreensão 
+              profunda surge da 
+              capacidade de alternar 
+              entre o pensamento difuso 
+              e o focado.</p>
+          </li>
+
+          <li class="cards__item">
+            <img src="images\images_sprint-3\cards-recall.png" class="cards__images" alt="A escultura de uma criança está exposta no museu.">
+            <h3 class="cards__title">Recordar</h3>
+            <p class="cards__description">Melhorar sua capacidade 
+              de para recordar pequenas 
+              informações importantes 
+              ajuda a conectar diferentes 
+              partes do cérebro.</p>
+          </li>
+
+          <li class="cards__item">
+            <img src="images\images_sprint-3\cards-interleaving.png" class="cards__images" alt="A imagem é em preto e branco e retrata um galpão amplo.">
+            <h3 class="cards__title">Intercalar</h3>
+            <p class="cards__description">Quando você aprende 
+              diferentes habilidades ao 
+              mesmo tempo, elas 
+              fortalecem umas às 
+              outras</p>
+          </li>
+
+          <li class="cards__item">
+            <img src="images\images_sprint-3\cards-question.png" class="cards__images" alt="uma pessoa em um comodo bem grande com varias janelas ao redor">
+            <h3 class="cards__title">Questões </h3>
+            <p class="cards__description">Quando estiver escutando seu professor, pense em uma boa pergunta, algo que você realmente gostaria de saber.</p>
+          </li>
+
+          <li class="cards__item">
+            <img src="images\images_sprint-3\cards-competence.png" class="cards__images" alt="uma mao segurando varios livros emplihados">
+            <h3 class="cards__title">Ilusão da Competência</h3>
+            <p class="cards__description">Teste a si mesmo, anote, fale com outra pessoa e repita o processo de diferentes situações. Somente assim você vai ter certeza de que entendeu alguma coisa.</p>
+          </li>
+
+        </ul>
+
+      </section>  
+
+      <section class="video">
+        <h2 class="section-title">Conversas TED</h2>
+        <p class="section-subtitle">Para os amantes da procrastinação</p>
+
+        <ul class="video__iframes">
+          <li class="video__iframe"><iframe width="560" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe></li>
+          <li class="video__iframe"><iframe width="560" height="316" src="https://www.youtube.com/embed/arj7oStGLkU"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe></li>
+        </ul>        
+
+      </section> 
+
+      <section class="oakley">
+        <article class="two-columns">
+          <h2 class="two-columns__brief">A história de Barbara Oakley</h2>
+          <div class="two-columns__main-text">
+            <p class="two-columns__paragraph">A matemática não veio naturalmente para Barbara na infância. Ela se identificava mais com 
+              ciências humanas, e que não era muito brilhante nisso. Com o objetivo de se especializar em 
+              linguística, após terminar seus estudos, ela se alistou no Exército, que a enviou para aprender 
+              russo. Após vários anos de serviço, tornando-se capitã, Barbara deixou o Exército e decidiu 
+              estudar engenharia. Foi nesta época que ela desenvolveu a metodologia de aprendizagem, pois 
+              precisou reprogramar seu cérebro para um tipo diferente de aprendizagem. Quando algo não 
+              ocorre naturalmente, então é preciso trabalhar duro para obter o conhecimento que outras pessoas 
+              podem obter rapidamente, dando assim uma visão mais profunda e abrangente do assunto.
+              </p>      
+          </div>
+        </article>
+      </section>
+
+      <section class="feynman">
+
+        <h2 class="feynman__title">A Técnica de Feynman</h2>
+        <h3 class="feynman__subtitle">Aprender sem esquecer</h3>
+        <a href="#" class="feynman__link">Mais →</a>
+
+      </section>
 
       <section class="digits">
         <h2 class="section-title">Fatos e números</h2>
@@ -128,17 +221,26 @@
 
       </section>
 
-      <section class="feynman">
-
-        <h2 class="feynman__title">A Técnica de Feynman</h2>
-        <h3 class="feynman__subtitle">Aprender sem esquecer</h3>
-        <a href="#" class="feynman__link">Mais →</a>
-
+      <section class="khan">
+        <div class="khan__container">
+          <p class="khan__author">Salman Khan</p>
+          <h2 class="khan__title">The One World Schoolhouse</h2>
+          <p class="khan__quote">A paixão e inovação de Sal Khan é transformar o aprendizado para milhões de estudantes
+            no mundo todo. O livro The One World Schoolhouse é uma leitura obrigatória para quem quer melhorar a
+            educação e que os estudantes habilidades e conhecimentos necessários na escola, na carreira, e na vida em
+            geral.</p>
+          <p class="khan__quote-author">George Lucas</p>
+          <p class="khan__quote-author-subline">Diretor</p>
+          <div class="khan__book-container">
+            <div class="Khan__book-pic"></div>
+            <p class="link khan__buy-link"><a class="link khan__buy-link" href="#">Comprar</a>→</p>
+          </div>
+        </div>
       </section>
 
       <section class="kaufman">
 
-        <img class="kaufman__triangle" src="./images/kaufman-triangle.svg" alt="Um 
+        <img class="kaufman__triangle rotate" src="./images/images_sprint-2/kaufman-triangle.svg" alt="Um 
         grande triângulo azul, sobre o qual Josh Kaufman reclama 
         propriedade">
 
@@ -147,62 +249,62 @@
         <p class="section-subtitle section-subtitle__theme_dark">por Josh Kaufman</p>
 
         <ul class="table table_theme_dark">
-          <li class="tabel__cell table__cell_theme_dark">
+          <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">1</h3>
             <p class="table__text table__text_theme_dark">Escolha um projeto que
               te traga interesse</p>
           </li>
 
-          <li class="tabel__cell table__cell_theme_dark">
+          <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">2</h3>
             <p class="table__text table__text_theme_dark">Foque a sua energia em
               uma habilidade por vez </p>
           </li>
 
-          <li class="tabel__cell table__cell_theme_dark">
+          <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">3</h3>
             <p class="table__text table__text_theme_dark">Defina o seu nível alvo
               de performance</p>
           </li>
 
-          <li class="tabel__cell table__cell_theme_dark">
+          <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">4</h3>
             <p class="table__text table__text_theme_dark">Desconstrua a
               habilidade em sub-habilidades</p>
           </li>
 
-          <li class="tabel__cell table__cell_theme_dark">
+          <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">5</h3>
             <p class="table__text table__text_theme_dark">Obtenha ferramentas
               críticas</p>
           </li>
 
-          <li class="tabel__cell table__cell_theme_dark">
+          <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">6</h3>
             <p class="table__text table__text_theme_dark">Elimite as barreiras para
               praticar</p>
           </li>
 
-          <li class="tabel__cell table__cell_theme_dark">
+          <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">7</h3>
             <p class="table__text table__text_theme_dark">Dedique tempo para a
               prática</p>
           </li>
 
-          <li class="tabel__cell table__cell_theme_dark">
+          <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">8</h3>
             <p class="table__text table__text_theme_dark">
               Crie ciclos de feedback
               rápidos</p>
           </li>
 
-          <li class="tabel__cell table__cell_theme_dark">
+          <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">9</h3>
             <p class="table__text table__text_theme_dark">
               Pratique usando o relógio, em intervalos curtos de tempo</p>
           </li>
 
-          <li class="tabel__cell table__cell_theme_dark">
+          <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">10</h3>
             <p class="table__text table__text_theme_dark">
               Dê ênfase a quantidade
@@ -211,12 +313,24 @@
 
         </ul>
       </section>
+
+      <section class="resources">
+        <h2 class="section-title">Recursos úteis</h2>
+        <h3 class="section-subtitle">Material adicional sobre técnicas e hacks de aprendizagem.</h3>
+        <ul class="resources__logo-zone">
+          <li class="resources__logo"><a href="#"><img src="./images/images_sprint-3/logo/resources-tedED.png" alt="Logo da Empresa tedED"></a></li>
+          <li class="resources__logo"><a href="#"><img src="./images/images_sprint-3/logo/resources-Medium.png" alt="Logo da Empresa Medium"></a></li>
+          <li class="resources__logo"><a href="#"><img src="./images/images_sprint-3/logo/resources-dezeen.png" alt="Logo da Empresa DeZeen"></a></li>
+          <li class="resources__logo"><a href="#"><img src="./images/images_sprint-3/logo/resources-goodreads.png" alt="Logo da Empresa Goodreads"></a></li>
+        </ul>
+      </section>
+
     </main>
 
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
-          <img class="footer__logo" alt="logo practicum" src="./images/logo_place_footer.png">
+          <img class="footer__logo" alt="logo tripleten na cor branca" src="./images/images_sprint-3/tripleten_logo-white.svg">
           <p class="footer__author">© 2023 Alan Galeano</p>
         </div>
 
@@ -233,9 +347,9 @@
           <h3 class="footer__column-heading">Mídia Social</h3>
           <ul class="footer__list">
             <li><a href="#" class="footer__column-links"><img class="footer__social-icon" alt="logo facebook"
-                  src="./images/facebook_white.svg">Facebook</a></li>
+                  src="./images/images_sprint-2/facebook_white.svg">Facebook</a></li>
             <li><a href="#" class="footer__column-links"><img class="footer__social-icon" alt="logo instagram"
-                  src="./images/instagram_white.svg">Instagram</a></li>
+                  src="./images/images_sprint-2/instagram_white.svg">Instagram</a></li>
           </ul>
         </div>
       </div>

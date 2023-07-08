@@ -1,8 +1,7 @@
-
-.table.table__heading {
-    line-height: 1.15;
-    font-size: 24px;
-    font-weight: bold;
-    margin: 0;
-    list-style: none;
-  }
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  list-style: none;
+}
