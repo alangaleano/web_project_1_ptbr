@@ -2,7 +2,8 @@
   font-weight: normal;
   color: #2F80ED;
   text-decoration: none;
-  display: inline;
+  display: block;
+  position: absolute;
   opacity: 1;
   transition: opacity 0.3s ease;
 }

@@ -6,7 +6,7 @@
   font-size: 18px;
   position: absolute;
   font-weight: normal;
-  display: inline;
+  display: inline-block;
   z-index: 2;
   /* o z-index eu ja tinha mudado na revisao anterior mas infelizmenre nao fez o upload corretamente*/
 }
