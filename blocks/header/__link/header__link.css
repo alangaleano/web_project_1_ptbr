@@ -3,9 +3,9 @@
   color: #2F80ED;
   text-decoration: none;
   display: inline;
-  margin-left: 245px;  
+  margin-left: 245px;
   opacity: 1;
-  transition: opacity 0.3s ease;  
+  transition: opacity 0.3s ease;
 }
 
 .header__link:hover {
