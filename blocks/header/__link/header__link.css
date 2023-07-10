@@ -2,9 +2,10 @@
   font-weight: normal;
   color: #2F80ED;
   text-decoration: none;
-  display: block;
+  display: inline;
+  margin-left: 245px;  
   opacity: 1;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;  
 }
 
 .header__link:hover {
