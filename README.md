@@ -2,6 +2,8 @@
 
 **Projeto de Página Única.**
 
+* [link projeto] (https://alangaleano.github.io/web_project_1_ptbr/)
+
 Este é um projeto de página única que apresenta uma solução web simples e eficaz, o projeto oferece aos usuários uma experiência agradável e interativa ao navegar pelas informações apresentadas.
 
 ## Recursos e Tecnologias Utilizadas:
